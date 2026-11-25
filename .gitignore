@@ -1,0 +1,24 @@
+# Local editor, operating-system and temporary files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.bak
+~$*
+
+# Dependencies, local hosting metadata and secrets
+node_modules/
+.netlify/
+.env
+.env.*
+!.env.example
+
+# Keep reports and archives outside the published website
+*.docx
+*.pdf
+*.zip
+*.rar
+evidence/

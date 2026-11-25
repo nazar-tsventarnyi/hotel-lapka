@@ -1,0 +1,4 @@
+[build]
+  publish = "."
+
+# The project is plain HTML, CSS and JavaScript; no build command is needed.
