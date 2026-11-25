@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Готель «Лапка» для котів і собак: умови проживання, прозорі тарифи, калькулятор вартості та заявка на перебування у Львові.">
+    <title>Готель Лапка — турбота про котів і собак у Львові</title>
+    <link rel="icon" href="assets/icons/brand.webp" type="image/webp">
+    <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/lab7.css"><meta name="theme-color" content="#49664E"></head>
+  <body class="flex min-h-dvh flex-col bg-paper font-sans text-ink">
+    <a href="#main-content" class="sr-only z-50 rounded-card bg-white px-4 py-2 text-brand focus-visible:not-sr-only focus-visible:fixed focus-visible:top-2 focus-visible:left-2">Перейти до вмісту</a>
+    <header class="sticky top-0 z-30 border-b border-line bg-paper">
+      <div class="mx-auto flex min-h-19 w-full max-w-shell items-center justify-between gap-5 px-5 sm:px-8 lg:min-h-23">
+        <a href="#main-content" class="flex shrink-0 items-center gap-2.5 rounded-sm">
+          <img src="assets/icons/brand.webp" alt="" width="192" height="146" class="h-10 w-12 object-contain lg:h-12 lg:w-14">
+          <span class="text-base leading-tight font-bold sm:text-lg">
+            Готель Лапка
+            <small class="mt-1 block text-xs font-normal text-muted">Турбота, коли ви далеко</small>
+          </span>
+        </a>
+        <nav id="site-menu" aria-label="Головна навігація" class="absolute inset-x-0 top-full hidden max-h-[calc(100dvh-4.75rem)] overflow-y-auto border-b border-line bg-paper px-5 py-3 shadow-card sm:px-8 lg:static lg:block lg:max-h-none lg:overflow-visible lg:border-0 lg:p-0 lg:shadow-none">
+          <ul class="flex flex-col lg:flex-row lg:items-center lg:gap-2 xl:gap-3"><li><a href="#about" class="flex min-h-11 items-center rounded-md px-2.5 py-2 text-sm leading-tight transition-colors hover:bg-sand/45 hover:text-brand aria-[current=page]:bg-moss aria-[current=page]:font-semibold aria-[current=page]:text-brand">Про нас</a></li><li><a href="#conditions" class="flex min-h-11 items-center rounded-md px-2.5 py-2 text-sm leading-tight transition-colors hover:bg-sand/45 hover:text-brand aria-[current=page]:bg-moss aria-[current=page]:font-semibold aria-[current=page]:text-brand">Умови</a></li><li><a href="#services" class="flex min-h-11 items-center rounded-md px-2.5 py-2 text-sm leading-tight transition-colors hover:bg-sand/45 hover:text-brand aria-[current=page]:bg-moss aria-[current=page]:font-semibold aria-[current=page]:text-brand">Послуги</a></li><li><a href="#media" class="flex min-h-11 items-center rounded-md px-2.5 py-2 text-sm leading-tight transition-colors hover:bg-sand/45 hover:text-brand aria-[current=page]:bg-moss aria-[current=page]:font-semibold aria-[current=page]:text-brand">Медіа</a></li><li><a href="#contacts" class="flex min-h-11 items-center rounded-md px-2.5 py-2 text-sm leading-tight transition-colors hover:bg-sand/45 hover:text-brand aria-[current=page]:bg-moss aria-[current=page]:font-semibold aria-[current=page]:text-brand">Контакти</a></li></ul></nav>
+        <div class="hidden shrink-0 xl:block">
+          <a href="#calculator" class="inline-flex min-h-11 items-center justify-center gap-2 rounded-full border px-5 py-2.5 text-center text-sm leading-snug font-semibold transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-4 motion-reduce:transition-none border-transparent bg-brand text-white hover:bg-brand-hover active:bg-brand-pressed focus-visible:outline-brand">
+            Розрахувати вартість </a>
+        </div>
+        <button type="button" class="inline-flex min-h-11 min-w-11 shrink-0 items-center justify-center rounded-full border border-input text-ink transition-colors hover:bg-sand/60 lg:hidden" aria-label="Відкрити меню" aria-expanded="false" aria-controls="site-menu" data-menu-toggle>
+          <svg class="size-5" aria-hidden="true" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+            <path stroke-linecap="round" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main id="main-content" tabindex="-1" class="flex-1">
+      <section aria-labelledby="hero-title" class="relative isolate overflow-hidden bg-sand/55 lg:bg-paper">
+        <div class="relative z-10 mx-auto w-full max-w-shell px-5 py-10 sm:px-8 sm:py-14 lg:py-20">
+          <div class="max-w-xl">
+            <p class="text-[0.7rem] font-bold tracking-[0.11em] text-brand uppercase mb-4">
+              Готель для котів і собак
+            </p>
+            <h1 id="hero-title" class="text-[2.35rem] leading-[1.1] sm:text-5xl lg:text-[3.75rem]">
+              Турботливий готель для домашніх тварин
+            </h1>
+            <p class="mt-5 max-w-md text-base leading-relaxed text-muted lg:mt-6 lg:text-lg">
+              Ознайомтеся з умовами проживання та заздалегідь розрахуйте
+              вартість перебування вашого улюбленця.
+            </p>
+            <div class="mt-6 flex flex-col gap-3 sm:flex-row lg:mt-8">
+              <a class="inline-flex min-h-11 items-center justify-center gap-2 rounded-full border px-5 py-2.5 text-center text-sm leading-snug font-semibold transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-4 motion-reduce:transition-none border-transparent bg-brand text-white hover:bg-brand-hover active:bg-brand-pressed focus-visible:outline-brand w-full sm:w-auto" href="#calculator">
+                Розрахувати вартість </a>
+              <a class="inline-flex min-h-11 items-center justify-center gap-2 rounded-full border px-5 py-2.5 text-center text-sm leading-snug font-semibold transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-4 motion-reduce:transition-none border-input text-ink hover:bg-sand/60 active:bg-sand focus-visible:outline-brand w-full sm:w-auto" href="#conditions">Переглянути умови</a>
+            </div>
+            <ul class="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-xs text-muted lg:text-sm">
+              <li class="flex items-center gap-2">
+                <span aria-hidden="true">✓</span> Зрозумілі умови
+              </li>
+              <li class="flex items-center gap-2">
+                <span aria-hidden="true">✓</span> Прозорий розрахунок
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="relative lg:absolute lg:inset-0">
+          <img src="assets/images/lapka-interior.webp" alt="Кіт і собака відпочивають у лежанках у світлій кімнаті" width="1672" height="941" fetchpriority="high" class="h-64 w-full object-cover object-center sm:h-80 lg:h-full">
+          <span class="hero-wash pointer-events-none absolute inset-0 hidden lg:block" aria-hidden="true"></span>
+        </div>
+      </section>
+
+      <div class="border-y border-line">
+        <ul class="mx-auto grid w-full max-w-shell grid-cols-1 gap-4 px-5 py-5 sm:px-8 sm:py-6 md:grid-cols-2 lg:grid-cols-3">
+          <li class="flex items-center gap-3">
+            <img class="size-13 shrink-0 object-contain" src="assets/icons/shield.webp" alt="" width="96" height="96" loading="lazy">
+            <div>
+              <strong>Зрозуміла підготовка</strong>
+              <small class="text-sm font-normal text-muted">Правила та документи до заїзду</small>
+            </div>
+          </li>
+          <li class="flex items-center gap-3">
+            <img class="size-13 shrink-0 object-contain" src="assets/icons/calc.webp" alt="" width="96" height="96" loading="lazy">
+            <div>
+              <strong>Прозорі тарифи</strong>
+              <small class="text-sm font-normal text-muted">Розбивка кожної складової ціни</small>
+            </div>
+          </li>
+          <li class="flex items-center gap-3">
+            <img class="size-13 shrink-0 object-contain" src="assets/icons/calendar.webp" alt="" width="96" height="96" loading="lazy">
+            <div>
+              <strong>Коротка заявка</strong>
+              <small class="text-sm font-normal text-muted">Зручно і з комп’ютера, і з телефона</small>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <section class="py-10 md:py-14 lg:py-16 scroll-mt-24" id="services" aria-labelledby="services-heading">
+        <div class="mx-auto w-full max-w-shell px-5 sm:px-8">
+          <div class="mb-6 flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between lg:gap-8">
+            <div>
+              <span class="text-[0.7rem] font-bold tracking-[0.11em] text-brand uppercase">Послуги й тарифи</span>
+              <h2 id="services-heading" class="text-2xl leading-tight lg:text-3xl">
+                Свій простір для кожного
+              </h2>
+            </div>
+            <p>
+              Оберіть формат проживання, а потім додайте потрібні опції в
+              калькуляторі.
+            </p>
+          </div>
+          <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3" data-service-grid="">
+            <article class="flex h-full min-w-0 flex-col rounded-card border border-line bg-white p-5 shadow-card transition-shadow motion-safe:hover:shadow-raised sm:p-6">
+              <img src="assets/icons/house.webp" alt="" width="112" height="112" loading="lazy" class="size-13 shrink-0 rounded-field bg-paper object-contain p-2">
+              <h3 class="mt-3 text-xl leading-tight">Для котиків</h3>
+              <p class="mt-2 leading-relaxed text-muted">
+                Спокійний простір і знайомий розпорядок для вашого кота.
+              </p>
+              <div class="mt-4 text-[1.4rem] leading-tight font-bold">
+                від 250 ₴
+                <small class="text-sm font-normal text-muted">/ доба</small>
+              </div>
+              <ul class="my-4 list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-muted">
+                <li>Індивідуальне місце проживання</li>
+                <li>Звичний корм за вашим планом</li>
+                <li>Щоденний догляд</li>
+              </ul>
+              <a class="inline-flex min-h-11 items-center justify-center gap-2 rounded-full border px-5 py-2.5 text-center text-sm leading-snug font-semibold transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-4 motion-reduce:transition-none border-input text-ink hover:bg-sand/60 active:bg-sand focus-visible:outline-brand" href="service-cats.html" aria-label="Докладніше про проживання для котів">Докладніше</a>
+            </article>
+            <article class="flex h-full min-w-0 flex-col rounded-card border border-brand/35 bg-moss p-5 shadow-card transition-shadow motion-safe:hover:shadow-raised sm:p-6">
+              <img src="assets/icons/shield.webp" alt="" width="112" height="112" loading="lazy" class="size-13 shrink-0 rounded-field bg-paper object-contain p-2">
+              <h3 class="mt-3 text-xl leading-tight">Для песиків</h3>
+              <p class="mt-2 leading-relaxed text-muted">
+                Проживання, прогулянки й увага до звичок улюбленця.
+              </p>
+              <div class="mt-4 text-[1.4rem] leading-tight font-bold">
+                від 350 ₴
+                <small class="text-sm font-normal text-muted">/ доба</small>
+              </div>
+              <ul class="my-4 list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-muted">
+                <li>Індивідуальне місце проживання</li>
+                <li>Прогулянки за розпорядком</li>
+                <li>Щоденний догляд</li>
+              </ul>
+              <a class="inline-flex min-h-11 items-center justify-center gap-2 rounded-full border px-5 py-2.5 text-center text-sm leading-snug font-semibold transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-4 motion-reduce:transition-none border-transparent bg-brand text-white hover:bg-brand-hover active:bg-brand-pressed focus-visible:outline-brand" href="service-dogs.html" aria-label="Докладніше про проживання для собак">Докладніше<svg class="size-4 shrink-0" aria-hidden="true" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 12h15m-6-6 6 6-6 6"></path></svg></a>
+            </article>
+            <article class="flex h-full min-w-0 flex-col rounded-card border border-line bg-white p-5 shadow-card transition-shadow motion-safe:hover:shadow-raised sm:p-6">
+              <img src="assets/icons/calendar.webp" alt="" width="112" height="112" loading="lazy" class="size-13 shrink-0 rounded-field bg-paper object-contain p-2">
+              <h3 class="mt-3 text-xl leading-tight">Більше турботи</h3>
+              <p class="mt-2 leading-relaxed text-muted">
+                Тариф «Комфорт» — коли потрібно більше індивідуальної уваги.
+              </p>
+              <div class="mt-4 text-[1.4rem] leading-tight font-bold">
+                від 350 ₴
+                <small class="text-sm font-normal text-muted">/ доба</small>
+              </div>
+              <ul class="my-4 list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-muted">
+                <li>Усе з базового тарифу</li>
+                <li>Індивідуальна гра щодня</li>
+                <li>Знайомство з розпорядком</li>
+              </ul>
+              <a class="inline-flex min-h-11 items-center justify-center gap-2 rounded-full border px-5 py-2.5 text-center text-sm leading-snug font-semibold transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-4 motion-reduce:transition-none border-input text-ink hover:bg-sand/60 active:bg-sand focus-visible:outline-brand" href="#calculator">Розрахувати</a>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section id="about" aria-labelledby="about-title" class="bg-moss/70 py-10 md:py-14 lg:py-16 scroll-mt-24">
+  <div class="mx-auto grid w-full max-w-shell grid-cols-1 gap-8 px-5 sm:px-8 lg:grid-cols-2 lg:items-center">
+    <div><p class="mb-3 text-sm font-semibold text-brand">ПРО ГОТЕЛЬ</p><h2 id="about-title" class="text-2xl leading-tight lg:text-3xl">Звичний ритм, нове затишне місце</h2>
+      <p class="mt-4 leading-relaxed text-muted">«Лапка» — простір для котів і собак, поки власники у подорожі або зайняті справами. Перед заїздом узгоджуємо харчування, звички та потреби улюбленця.</p>
+      <p class="mt-3 leading-relaxed text-muted">Спочатку перегляньте умови, оберіть формат проживання й розрахуйте вартість. Заявка допоможе підготувати інформацію для знайомства.</p>
+      <a href="#conditions" class="mt-5 inline-flex min-h-11 items-center rounded-full border border-input px-5 py-2.5 text-sm font-semibold transition-colors hover:bg-sand/60">Переглянути умови</a></div>
+    <ul class="space-y-4 rounded-card border border-line bg-white p-5 md:p-7">
+      <li><h3 class="text-lg font-semibold">Окремий простір</h3><p class="mt-1 text-muted">Різні формати проживання для котів і собак.</p></li>
+      <li><h3 class="text-lg font-semibold">Зрозуміла вартість</h3><p class="mt-1 text-muted">Базовий тариф і додаткові опції видно в калькуляторі.</p></li>
+      <li><h3 class="text-lg font-semibold">Знайомство до заїзду</h3><p class="mt-1 text-muted">Узгоджуємо дати та індивідуальні потреби заздалегідь.</p></li>
+    </ul>
+  </div></section><section class="pt-4 pb-10 md:pb-14 lg:pb-16 scroll-mt-24" id="conditions" aria-labelledby="conditions-heading">
+        <div class="mx-auto grid w-full max-w-shell grid-cols-1 gap-6 px-5 sm:px-8 lg:grid-cols-2">
+          <figure class="self-center overflow-hidden rounded-card border border-line bg-white">
+            <img src="assets/images/lapka-interior.webp" width="1672" height="941" alt="Ілюстрація концепції затишного простору для кота та собаки" loading="lazy">
+            <figcaption class="border-t border-line px-4 py-2 text-xs text-muted">
+              Ілюстрація концепції
+            </figcaption>
+          </figure>
+          <div class="self-center">
+            <span class="text-[0.7rem] font-bold tracking-[0.11em] text-brand uppercase">Перед знайомством</span>
+            <h2 id="conditions-heading" class="text-2xl leading-tight lg:text-3xl">
+              Спокійніше, коли все зрозуміло
+            </h2>
+            <p class="mt-2 leading-relaxed text-muted">
+              Підготуйте звичні речі улюбленця та розкажіть про його розпорядок
+              — так легше узгодити деталі перебування.
+            </p>
+            <div class="mt-3 flex items-start gap-2">
+              <svg class="size-4 shrink-0" aria-hidden="true" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m5 12 4 4 10-10"></path>
+              </svg>
+              <span>Документи та актуальна інформація про вакцинацію.</span>
+            </div>
+            <div class="mt-3 flex items-start gap-2">
+              <svg class="size-4 shrink-0" aria-hidden="true" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m5 12 4 4 10-10"></path>
+              </svg>
+              <span>Звичний корм, улюблена іграшка та знайомі речі.</span>
+            </div>
+            <div class="mt-3 flex items-start gap-2">
+              <svg class="size-4 shrink-0" aria-hidden="true" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m5 12 4 4 10-10"></path>
+              </svg>
+              <span>Поведінка, харчування та особливі потреби.</span>
+            </div>
+            <a class="inline-flex min-h-11 items-center gap-2 rounded-sm text-sm font-semibold text-brand underline underline-offset-4 hover:text-brand-hover" href="#application">
+              Залишити заявку
+              </a>
+          </div>
+        </div>
+      </section>
+      <section class="bg-moss/70 py-10 md:py-14 lg:py-16 scroll-mt-24" id="calculator" aria-labelledby="calculator-heading">
+        <div class="mx-auto w-full max-w-shell px-5 sm:px-8">
+          <div class="mb-6 flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between lg:gap-8">
+            <div>
+              <span class="text-[0.7rem] font-bold tracking-[0.11em] text-brand uppercase">Прозорий розрахунок</span>
+              <h2 id="calculator-heading" class="text-2xl leading-tight lg:text-3xl">
+                Сплануйте перебування
+              </h2>
+            </div>
+            <p>
+              Кількість діб × тариф + обрані додаткові послуги. Підсумок
+              змінюється одразу.
+            </p>
+          </div>
+          <p class="mt-1 mb-5 text-xs leading-relaxed text-muted">
+            Тарифи за добу: кіт — 250 / 350 ₴, собака — 350 / 450 ₴ (Базовий /
+            Комфорт).
+          </p>
+          <div class="grid grid-cols-1 items-start gap-5 lg:grid-cols-[1.08fr_0.92fr] lg:gap-8">
+            <div class="min-w-0 space-y-4 rounded-card border border-line bg-white p-5 shadow-card md:p-7">
+              <div class="min-w-0 text-sm font-semibold">
+                <label for="calc-pet">Ваш улюбленець</label>
+                <select id="calc-pet" class="mt-1 block min-h-11 w-full max-w-full min-w-0 rounded-field border border-input bg-white px-3 py-2 text-base text-ink aria-invalid:border-danger" data-calc="pet">
+                  <option value="cat" selected>Кіт</option>
+                  <option value="dog">Собака</option>
+                </select>
+              </div>
+              <fieldset class="min-w-0 text-sm font-semibold">
+                <legend>Тариф</legend>
+                <div class="mt-2 grid grid-cols-2 gap-2">
+                  <label class="flex min-h-11 cursor-pointer items-center justify-center gap-1.5 rounded-field border border-line px-2 text-sm has-checked:border-brand has-checked:bg-moss">
+                    <input type="radio" name="calc-plan" data-calc="plan" value="basic" checked class="size-4 shrink-0 accent-brand">
+                    Базовий
+                  </label>
+                  <label class="flex min-h-11 cursor-pointer items-center justify-center gap-1.5 rounded-field border border-line px-2 text-sm has-checked:border-brand has-checked:bg-moss">
+                    <input type="radio" name="calc-plan" data-calc="plan" value="comfort" class="size-4 shrink-0 accent-brand">
+                    Комфорт
+                  </label>
+                </div>
+              </fieldset>
+              <div class="min-w-0 text-sm font-semibold">
+                <label for="calc-days">Кількість діб</label>
+                <input id="calc-days" class="mt-1 block min-h-11 w-full max-w-full min-w-0 rounded-field border border-input bg-white px-3 py-2 text-base text-ink aria-invalid:border-danger" type="number" inputmode="numeric" min="1" max="60" step="1" data-calc="days" value="3" aria-describedby="days-help" aria-invalid="false">
+                <p id="days-help" class="mt-1 text-xs leading-relaxed text-muted">
+                  Від 1 до 60 повних діб.
+                </p>
+                <p id="days-error" class="mt-1 text-sm font-semibold text-danger" hidden="">
+                  Введіть ціле число від 1 до 60.
+                </p>
+              </div>
+              <fieldset class="min-w-0 text-sm font-semibold">
+                <legend>Додаткові послуги</legend>
+                <label class="flex min-h-11 cursor-pointer items-center gap-2 rounded-lg px-1 text-sm has-disabled:cursor-default has-disabled:text-muted">
+                  <input type="checkbox" data-calc="photo" class="size-4 shrink-0 accent-brand">
+                  <span>
+                    Фотооновлення
+                    <span class="text-sm text-muted">· 50 ₴ / доба</span>
+                  </span>
+                </label>
+                <label class="flex min-h-11 cursor-pointer items-center gap-2 rounded-lg px-1 text-sm has-disabled:cursor-default has-disabled:text-muted">
+                  <input type="checkbox" id="play-option" data-calc="play" class="size-4 shrink-0 accent-brand">
+                  <span>
+                    Індивідуальна гра
+                    <span class="text-sm text-muted" id="play-label">· 80 ₴ / доба</span>
+                  </span>
+                </label>
+              </fieldset>
+            </div>
+            <aside class="min-w-0 rounded-card bg-ink p-5 text-paper shadow-card md:p-7" aria-labelledby="calc-summary-title" data-price-summary="">
+              <h3 id="calc-summary-title" class="text-xl leading-tight">
+                Ваш розрахунок
+              </h3>
+              <div aria-live="polite" aria-atomic="true">
+                <p id="price-warning" class="text-sand" hidden>
+                  Вкажіть цілу кількість діб від 1 до 60, щоб побачити підсумок.
+                </p>
+                <div id="price-breakdown">
+                  <p id="price-label" class="text-sm text-sand">
+                    Кіт · Базовий · 3 доби
+                  </p>
+                  <dl class="mt-5 space-y-2 border-t border-sand/35 pt-4">
+                    <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 text-sm">
+                      <dt id="price-rate">250 ₴ × 3 доби</dt>
+                      <dd id="price-stay" class="font-semibold">750 ₴</dd>
+                    </div>
+                    <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 text-sm">
+                      <dt>Фотооновлення</dt>
+                      <dd id="price-photo" class="font-semibold">Не обрано</dd>
+                    </div>
+                    <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 text-sm">
+                      <dt>Індивідуальна гра</dt>
+                      <dd id="price-play" class="font-semibold">Не обрано</dd>
+                    </div>
+                  </dl>
+                  <p class="mt-4 text-sm text-sand">Орієнтовна загальна сума</p>
+                </div>
+                <p class="my-2 text-4xl leading-tight font-bold sm:text-5xl" id="price-total">
+                  750 ₴
+                </p>
+              </div>
+              <a class="inline-flex min-h-11 items-center justify-center gap-2 rounded-full border px-5 py-2.5 text-center text-sm leading-snug font-semibold transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-4 motion-reduce:transition-none border-transparent bg-brand text-white hover:bg-brand-hover active:bg-brand-pressed mt-4 focus-visible:outline-paper w-full" id="price-apply" href="#application">
+                Залишити заявку
+                </a>
+              <button class="inline-flex min-h-11 items-center justify-center gap-2 rounded-full border px-5 py-2.5 text-center text-sm leading-snug font-semibold transition-colors duration-200 disabled:cursor-not-allowed motion-reduce:transition-none border-transparent bg-brand text-white hover:bg-brand-hover active:bg-brand-pressed disabled:bg-sand disabled:text-muted mt-4 w-full" id="price-apply-disabled" type="button" disabled hidden>
+                Залишити заявку
+              </button>
+              <p class="mt-3 text-xs leading-relaxed text-sand">
+                Доступність місць та остаточні умови потребують узгодження.
+              </p>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-10 md:py-14 lg:py-16" aria-labelledby="steps-heading">
+        <div class="mx-auto w-full max-w-shell px-5 sm:px-8">
+          <div class="mb-6 flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between lg:gap-8">
+            <div>
+              <span class="text-[0.7rem] font-bold tracking-[0.11em] text-brand uppercase">Як це працює</span>
+              <h2 id="steps-heading" class="text-2xl leading-tight lg:text-3xl">
+                Від плану до знайомства
+              </h2>
+            </div>
+          </div>
+          <ol class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <li class="min-w-0 rounded-card border border-line bg-white p-5 shadow-card sm:p-6">
+              <div class="mb-2 text-sm font-bold text-brand">01</div>
+              <h3 class="mt-3 text-xl leading-tight">Розрахуйте</h3>
+              <p class="mt-2 leading-relaxed text-muted">
+                Оберіть тариф, кількість діб та потрібні послуги.
+              </p>
+            </li>
+            <li class="min-w-0 rounded-card border border-line bg-white p-5 shadow-card sm:p-6">
+              <div class="mb-2 text-sm font-bold text-brand">02</div>
+              <h3 class="mt-3 text-xl leading-tight">Залиште заявку</h3>
+              <p class="mt-2 leading-relaxed text-muted">
+                Додайте контакти, ім’я улюбленця й бажані дати.
+              </p>
+            </li>
+            <li class="min-w-0 rounded-card border border-line bg-white p-5 shadow-card sm:p-6">
+              <div class="mb-2 text-sm font-bold text-brand">03</div>
+              <h3 class="mt-3 text-xl leading-tight">Узгодьте перебування</h3>
+              <p class="mt-2 leading-relaxed text-muted">
+                Доступність місць та деталі потребують підтвердження.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section class="pt-4 pb-10 md:pb-14 lg:pb-16 scroll-mt-24" id="reviews" aria-labelledby="reviews-heading">
+        <div class="mx-auto w-full max-w-shell px-5 sm:px-8">
+          <div class="mb-6 flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between lg:gap-8">
+            <div>
+              <span class="text-[0.7rem] font-bold tracking-[0.11em] text-brand uppercase">Відгуки</span>
+              <h2 id="reviews-heading" class="text-2xl leading-tight lg:text-3xl">
+                Кожна історія починається з довіри
+              </h2>
+            </div>
+          </div>
+          <div class="grid items-start gap-4 rounded-card border border-line bg-white p-5 shadow-card sm:grid-cols-[auto_1fr] sm:p-7 lg:grid-cols-[auto_1fr_auto] lg:items-center">
+            <img class="size-13 shrink-0 object-contain" src="assets/icons/review.webp" alt="" width="96" height="96" loading="lazy">
+            <div>
+              <h3 class="text-xl leading-tight">
+                Тут з’являться історії власників
+              </h3>
+              <p class="mt-2 leading-relaxed text-muted">
+                Підтверджених відгуків поки немає. Перегляньте умови або залиште
+                запитання в заявці.
+              </p>
+            </div>
+            <a class="inline-flex min-h-11 items-center justify-center gap-2 rounded-full border px-5 py-2.5 text-center text-sm leading-snug font-semibold transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-4 motion-reduce:transition-none border-input text-ink hover:bg-sand/60 active:bg-sand focus-visible:outline-brand" href="#conditions">Переглянути умови</a>
+          </div>
+        </div>
+      </section>
+      <section id="media" aria-labelledby="media-title" class="py-10 md:py-14 lg:py-16 scroll-mt-24">
+  <div class="mx-auto w-full max-w-shell px-5 sm:px-8">
+    <p class="mb-3 text-sm font-semibold text-brand">ПЕРЕД ЗНАЙОМСТВОМ</p>
+    <h2 id="media-title" class="text-2xl leading-tight lg:text-3xl">Корисно для власників</h2>
+    <p class="mt-3 max-w-3xl leading-relaxed text-muted">Погляньте на поради про денний догляд і перевірте погоду для прогулянки у Львові.</p>
+    <div class="mt-6 grid grid-cols-1 gap-6 lg:grid-cols-2">
+      <figure class="min-w-0 rounded-card border border-line bg-white p-5 shadow-card md:p-7">
+        <h3 class="mb-4 text-xl leading-tight">Як обирати денний догляд</h3>
+        <!-- МЕДІА 1: YouTube. Адаптивний контейнер 16:9, доступна назва та lazy loading. -->
+        <div class="aspect-video overflow-hidden rounded-field bg-ink">
+          <iframe src="https://www.youtube-nocookie.com/embed/nIR0y02L6S0" title="Dog Daycare 101 — поради щодо денного догляду за собакою, Our Pets Health" class="h-full w-full border-0" width="560" height="315" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <figcaption class="mt-3 text-sm leading-relaxed text-muted">Our Pets Health · англійською. Відео стороннього автора, не зйомка готелю. <a class="font-semibold text-brand underline" href="https://www.youtube.com/watch?v=nIR0y02L6S0" target="_blank" rel="noopener noreferrer">Відкрити на YouTube</a>.</figcaption>
+      </figure>
+      <!-- МЕДІА 2: динамічний інформер Open-Meteo. Дані запитуються через Fetch API. -->
+      <aside id="weather-widget" aria-labelledby="weather-title" class="min-w-0 rounded-card border border-line bg-moss p-5 shadow-card md:p-7">
+        <p class="mb-3 text-sm font-semibold text-brand">ПОГОДА ДЛЯ ПРОГУЛЯНОК</p>
+        <h3 id="weather-title" class="text-xl leading-tight">Львів зараз</h3>
+        <div id="weather-content" class="mt-5" role="status" aria-live="polite"><p class="text-muted">Завантажуємо актуальну погоду…</p></div>
+        <button id="weather-refresh" type="button" class="mt-5 inline-flex min-h-11 items-center justify-center rounded-full border border-input bg-white px-5 py-2.5 text-sm font-semibold transition-colors hover:bg-sand/60">Оновити погоду</button>
+        <p class="mt-4 text-sm leading-relaxed text-muted">Модельні погодні дані <a href="https://open-meteo.com/" class="font-semibold text-brand underline" target="_blank" rel="noopener noreferrer">Open-Meteo</a>. Погода допомагає спланувати прогулянку.</p>
+      </aside>
+    </div>
+  </div></section><section class="py-10 md:py-14 lg:py-16 scroll-mt-24" id="application" aria-labelledby="application-heading">
+        <div class="mx-auto grid w-full max-w-shell grid-cols-1 items-start gap-7 px-5 sm:px-8 lg:grid-cols-2 lg:gap-10" data-application-layout="">
+          <div>
+            <span class="text-[0.7rem] font-bold tracking-[0.11em] text-brand uppercase">Залишити заявку</span>
+            <h2 id="application-heading" class="text-2xl leading-tight lg:text-3xl">
+              Розкажіть про свого улюбленця
+            </h2>
+            <p class="text-muted">
+              Зазначте бажані дати та особливі потреби. Це перший крок до
+              узгодження перебування.
+            </p>
+            <div class="calculation-reference my-5 space-y-2 rounded-card border border-line bg-white p-5 shadow-card">
+              <span class="text-[0.7rem] font-bold tracking-[0.11em] text-brand uppercase">Ваш орієнтир вартості</span>
+              <b id="application-price-label" hidden></b>
+              <p class="text-sm">
+                <span id="application-price-status" class="font-semibold" role="status">
+                  Оберіть вид тварини у формі, щоб розрахувати вартість.
+                </span>
+                <span id="application-price-note"></span>
+              </p>
+              <a class="inline-flex min-h-11 items-center gap-2 rounded-sm text-sm font-semibold text-brand underline underline-offset-4 hover:text-brand-hover" href="#calculator">
+                Змінити тариф та опції
+                </a>
+            </div>
+            <div class="mt-3 flex items-start gap-2">
+              <svg class="size-4 shrink-0" aria-hidden="true" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m5 12 4 4 10-10"></path>
+              </svg>
+              <span class="text-sm">Без реєстрації та онлайн-оплати.</span>
+            </div>
+            <div class="mt-3 flex items-start gap-2">
+              <svg class="size-4 shrink-0" aria-hidden="true" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m5 12 4 4 10-10"></path>
+              </svg>
+              <span class="text-sm">Надсилання заявки не означає підтвердження місця.</span>
+            </div>
+          </div>
+          <div id="application-content">
+            <form id="application-form" class="min-w-0 space-y-4 rounded-card border border-line bg-white p-5 shadow-card md:p-7" novalidate="" aria-describedby="demo-form-note">
+              <p id="demo-form-note" class="mb-4 text-sm leading-relaxed text-muted">Навчальна форма: перевіряє введені дані у браузері. Заявка не надсилається адміністратору й не бронює місце.</p><div class="min-w-0 text-sm font-semibold">
+                <label for="owner">Ваше ім’я *</label>
+                <input class="mt-1 block min-h-11 w-full max-w-full min-w-0 rounded-field border border-input bg-white px-3 py-2 text-base text-ink aria-invalid:border-danger" id="owner" name="owner" autocomplete="given-name" required="" maxlength="80" placeholder="Як до вас звертатися" value="" aria-describedby="owner-error">
+                <p class="mt-1 text-sm font-semibold text-danger" id="owner-error" hidden=""></p>
+              </div>
+              <div class="min-w-0 text-sm font-semibold">
+                <label for="phone">Телефон *</label>
+                <input class="mt-1 block min-h-11 w-full max-w-full min-w-0 rounded-field border border-input bg-white px-3 py-2 text-base text-ink aria-invalid:border-danger" id="phone" name="phone" autocomplete="tel" type="tel" inputmode="tel" required="" maxlength="30" placeholder="+380 67 123 45 67" value="" aria-describedby="phone-help phone-error">
+                <p class="mt-1 text-xs leading-relaxed text-muted" id="phone-help">
+                  Номер для узгодження перебування.
+                </p>
+                <p class="mt-1 text-sm font-semibold text-danger" id="phone-error" hidden=""></p>
+              </div>
+              <div class="grid grid-cols-1 gap-3 text-sm font-semibold sm:grid-cols-2">
+                <div class="min-w-0">
+                  <label for="application-pet">Вид тварини *</label>
+                  <select class="mt-1 block min-h-11 w-full max-w-full min-w-0 rounded-field border border-input bg-white px-3 py-2 text-base text-ink aria-invalid:border-danger" id="application-pet" name="pet" required="" aria-describedby="pet-error">
+                    <option value="">Оберіть вид</option>
+                    <option value="cat">Кіт</option>
+                    <option value="dog">Собака</option>
+                  </select>
+                  <p class="mt-1 text-sm font-semibold text-danger" id="pet-error" hidden=""></p>
+                </div>
+                <div class="min-w-0">
+                  <label for="petname">Ім’я улюбленця *</label>
+                  <input class="mt-1 block min-h-11 w-full max-w-full min-w-0 rounded-field border border-input bg-white px-3 py-2 text-base text-ink aria-invalid:border-danger" id="petname" name="petname" required="" maxlength="100" placeholder="Наприклад, Марсик" value="" aria-describedby="petname-error">
+                  <p class="mt-1 text-sm font-semibold text-danger" id="petname-error" hidden=""></p>
+                </div>
+              </div>
+              <fieldset class="min-w-0 text-sm font-semibold">
+                <legend>Дати проживання *</legend>
+                <div class="grid grid-cols-1 gap-3 sm:grid-cols-2">
+                  <div>
+                    <label for="arrival">Заїзд</label>
+                    <input class="mt-1 block min-h-11 w-full max-w-full min-w-0 rounded-field border border-input bg-white px-3 py-2 text-base text-ink aria-invalid:border-danger" id="arrival" name="arrival" type="date" required="" value="" aria-describedby="dates-help arrival-error">
+                    <p class="mt-1 text-sm font-semibold text-danger" id="arrival-error" hidden=""></p>
+                  </div>
+                  <div>
+                    <label for="departure">Виїзд</label>
+                    <input class="mt-1 block min-h-11 w-full max-w-full min-w-0 rounded-field border border-input bg-white px-3 py-2 text-base text-ink aria-invalid:border-danger" id="departure" name="departure" type="date" required="" value="" aria-describedby="dates-help departure-error">
+                    <p class="mt-1 text-sm font-semibold text-danger" id="departure-error" hidden=""></p>
+                  </div>
+                </div>
+                <p id="dates-help" class="mt-1 text-xs leading-relaxed text-muted">
+                  Виїзд пізніше за заїзд. Перебування від 1 до 60 діб.
+                </p>
+              </fieldset>
+              <div class="min-w-0 text-sm font-semibold">
+                <label for="comment">
+                  Коментар
+                  <span class="font-normal text-muted">· необов’язково</span>
+                </label>
+                <textarea class="mt-1 block min-h-11 w-full max-w-full min-w-0 rounded-field border border-input bg-white px-3 py-2 text-base text-ink aria-invalid:border-danger" id="comment" name="comment" rows="3" maxlength="500" placeholder="Звички, харчування або запитання"></textarea>
+              </div>
+              <div class="my-3 rounded-field border border-danger/40 bg-danger/8 p-3 text-sm text-danger" id="submit-error" role="alert" hidden=""></div>
+              <button type="button" class="inline-flex min-h-11 items-center justify-center gap-2 rounded-full border px-5 py-2.5 text-center text-sm leading-snug font-semibold transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-4 disabled:cursor-not-allowed motion-reduce:transition-none border-transparent bg-brand text-white hover:bg-brand-hover active:bg-brand-pressed focus-visible:outline-brand disabled:bg-sand disabled:text-muted w-full aria-busy:cursor-wait" id="submit-application">Перевірити заявку</button>
+              <p class="mt-3 text-xs leading-relaxed text-muted">
+                Перевірка даних відбувається у вашому браузері.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    <section id="contacts" aria-labelledby="contacts-title" class="bg-moss/70 py-10 md:py-14 lg:py-16 scroll-mt-24">
+  <div class="mx-auto w-full max-w-shell px-5 sm:px-8">
+    <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:items-center">
+      <div><p class="mb-3 text-sm font-semibold text-brand">ЗНАЙОМСТВО ПОЧИНАЄТЬСЯ ТУТ</p><h2 id="contacts-title" class="text-2xl leading-tight lg:text-3xl">Зустрінемось у Львові</h2>
+        <p class="mt-4 leading-relaxed text-muted">Залиште заявку з датами перебування та інформацією про улюбленця. Остаточні умови й місце зустрічі потрібно узгодити перед заїздом.</p>
+        <p class="mt-3 text-sm leading-relaxed text-muted">На карті показано центр Львова як орієнтир навчального проєкту. Це не підтверджена адреса готелю.</p>
+        <div class="mt-5 flex flex-wrap gap-3"><a href="#application" class="inline-flex min-h-11 items-center justify-center rounded-full border border-transparent bg-brand px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-hover">Підготувати заявку</a>
+        <a href="https://www.google.com/maps?q=Lviv,Ukraine" target="_blank" rel="noopener noreferrer" class="inline-flex min-h-11 items-center rounded-full border border-input px-5 py-2.5 text-sm font-semibold transition-colors hover:bg-sand/60">Відкрити Google Maps</a></div></div>
+      <figure class="min-w-0">
+        <!-- МЕДІА 3: інтерактивна Google Maps, 16:9, без ключа API. -->
+        <div class="aspect-video overflow-hidden rounded-card border border-line bg-white shadow-card"><iframe src="https://maps.google.com/maps?q=Lviv,Ukraine&amp;z=13&amp;output=embed" title="Інтерактивна карта центру Львова — орієнтир навчального проєкту Лапка" class="h-full w-full border-0" width="640" height="360" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
+        <figcaption class="mt-3 text-sm text-muted">Карту можна масштабувати та пересувати.</figcaption>
+      </figure>
+    </div>
+  </div></section></main>
+    <template id="application-success">
+      <div class="space-y-3 rounded-card border border-line bg-white p-5 shadow-card md:p-7" role="status" tabindex="-1" id="success-panel">
+        <div class="mb-3 w-fit rounded-full bg-moss px-3 py-2 text-lg font-bold text-brand">
+          ✓
+        </div>
+        <h3 class="text-xl leading-tight">Заявка готова</h3>
+        <p class="mt-2 leading-relaxed text-muted">Дані перевірено у браузері. Це демонстрація форми; бронювання не створено й повідомлення не надіслано.</p>
+        <button class="inline-flex min-h-11 items-center justify-center gap-2 rounded-full border px-5 py-2.5 text-center text-sm leading-snug font-semibold transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-4 disabled:cursor-not-allowed motion-reduce:transition-none border-transparent bg-brand text-white hover:bg-brand-hover active:bg-brand-pressed focus-visible:outline-brand disabled:bg-sand disabled:text-muted" id="new-application" type="button">
+          Створити нову заявку
+          <svg class="size-4 shrink-0" aria-hidden="true" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 12h15m-6-6 6 6-6 6"></path>
+          </svg>
+        </button>
+      </div>
+    </template>
+
+    <footer class="bg-ink py-10 text-paper md:py-14">
+      <div class="mx-auto w-full max-w-shell px-5 sm:px-8">
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+          <div>
+            <a href="#main-content" class="inline-flex min-h-11 items-center gap-2.5 rounded-sm text-lg font-bold">
+              <img src="assets/icons/brand.webp" alt="" loading="lazy" width="192" height="146" class="h-10 w-12 rounded-md bg-paper object-contain">
+              Готель Лапка
+            </a>
+            <p class="mt-4 max-w-xs text-sm leading-relaxed text-sand">
+              Умови проживання, зрозумілий розрахунок і коротка заявка для
+              власників котів та собак.
+            </p>
+          </div>
+          <div>
+            <h2 class="font-sans text-base font-bold tracking-normal">
+              Навігація
+            </h2>
+            <nav class="mt-2" aria-label="Навігація у підвалі">
+              <ul class="space-y-0.5 text-sm">
+                <li>
+                  <a href="#conditions" class="inline-flex min-h-11 items-center gap-2 rounded-sm text-sand underline-offset-4 transition-colors hover:text-white hover:underline focus-visible:outline-paper">Умови проживання</a>
+                </li>
+                <li>
+                  <a href="#services" class="inline-flex min-h-11 items-center gap-2 rounded-sm text-sand underline-offset-4 transition-colors hover:text-white hover:underline focus-visible:outline-paper">Послуги й тарифи</a>
+                </li>
+                <li>
+                  <a href="#reviews" class="inline-flex min-h-11 items-center gap-2 rounded-sm text-sand underline-offset-4 transition-colors hover:text-white hover:underline focus-visible:outline-paper">Відгуки</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div>
+            <h2 class="font-sans text-base font-bold tracking-normal">
+              Проживання
+            </h2>
+            <ul class="mt-2 space-y-0.5 text-sm">
+              <li>
+                <a href="service-cats.html" class="inline-flex min-h-11 items-center gap-2 rounded-sm text-sand underline-offset-4 transition-colors hover:text-white hover:underline focus-visible:outline-paper">Для котів</a>
+              </li>
+              <li>
+                <a href="service-dogs.html" class="inline-flex min-h-11 items-center gap-2 rounded-sm text-sand underline-offset-4 transition-colors hover:text-white hover:underline focus-visible:outline-paper">Для собак</a>
+              </li>
+              <li>
+                <a href="#calculator" class="inline-flex min-h-11 items-center gap-2 rounded-sm text-sand underline-offset-4 transition-colors hover:text-white hover:underline focus-visible:outline-paper">Калькулятор вартості</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="font-sans text-base font-bold tracking-normal">
+              Заявка
+            </h2>
+            <p class="mt-3 text-sm leading-relaxed text-sand">
+              Розкажіть про улюбленця та бажані дати.
+            </p>
+            <a href="#application" class="inline-flex min-h-11 items-center gap-2 rounded-sm text-sand underline-offset-4 transition-colors hover:text-white hover:underline focus-visible:outline-paper mt-2 font-semibold">Залишити заявку </a>
+          </div>
+        </div>
+        <p class="mt-8 border-t border-sand/35 pt-5 text-sm text-sand">
+          © 2026 Готель Лапка
+        </p>
+      </div>
+    </footer>
+
+    <script src="assets/js/app.js" defer></script>
+  <script src="assets/js/lab7.js" defer></script></body>
+</html>

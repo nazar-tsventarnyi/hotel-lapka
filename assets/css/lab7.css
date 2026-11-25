@@ -1,0 +1,10 @@
+/* Додаткові утиліти до локальної збірки Tailwind CSS з ЛР 6. */
+@layer utilities {
+  .aspect-video { aspect-ratio: 16 / 9; }
+  .scroll-mt-24 { scroll-margin-top: 6rem; }
+  .border-0 { border-width: 0; }
+}
+/* Фокус збережено в style.css. Рух вимкнено за системним налаштуванням. */
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
